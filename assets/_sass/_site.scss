@@ -139,25 +139,6 @@ canvas {
   }
 }
 
-
-
-  &:hover {
-    border-color: $green;
-    &:before {
-      border-color: $green;
-    }
-    span {
-      border-color: $green;
-      &:before {
-        border-color: $green;
-      }
-    }
-  }
-  &.active {
-    position: fixed;
-  }
-}
-
 .posts-link,
 .projects-link {
   position: absolute;
