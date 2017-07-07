@@ -140,45 +140,7 @@ canvas {
 }
 
 
-.about-menu-icon {
-  position: absolute;
-  top: 30px;
-  right: 120px;
-  width: 15px;
-  height: 15px;
-  border: 2px solid $gray;
-  border-radius: 3px;
-  cursor: pointer;
-  z-index: 3;
-  &:before {
-    content: '';
-    position: absolute;
-    left: -19px;
-    top: -2px;
-    width: 15px;
-    height: 15px;
-    border: 2px solid $gray;
-    border-radius: 3px;
-  }
-  span {
-    position: absolute;
-    top: 15px;
-    right: -2px;
-    width: 15px;
-    height: 15px;
-    border: 2px solid $gray;
-    border-radius: 3px;
-    &:before {
-      content: '';
-      position: absolute;
-      left: -19px;
-      top: -2px;
-      width: 15px;
-      height: 15px;
-      border: 2px solid $gray;
-      border-radius: 3px;
-    }
-  }
+
   &:hover {
     border-color: $green;
     &:before {
@@ -196,7 +158,6 @@ canvas {
   }
 }
 
-.about-link
 .posts-link,
 .projects-link {
   position: absolute;
@@ -210,9 +171,6 @@ canvas {
 }
 
 .projects-link {
-  right: 20px;
-}
-.about-link {
   right: 20px;
 }
 
